@@ -1,4 +1,10 @@
 var lib = require('./libs/exceed.lib');
 window.EXcreateMessage = lib.EXcreateMessage;
 window.EXformat = lib.EXformat;
+window.socket = io();
+window.React = require('react');
+window.ReactRedux = require('react-redux');
+window.Redux = require('redux');
+window.connect = ReactRedux.connect;
+window._ = require('lodash');
 var Wrapper = require('./components/wrapper.jsx');
