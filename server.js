@@ -29,7 +29,7 @@ io.on('connection', function(socket) {
   });
   socket.on('login', function(username) {
     console.log('login : ' + username);
-    socket.emit('login', username);
+    io.emit('login', username);
   });
 });
 

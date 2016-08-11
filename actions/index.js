@@ -4,7 +4,7 @@
     var Action = {
       login: function(username) {
         return {
-          type: types.LOGIN,
+          type: types.LOGIN_SERVER,
           data: username
         };
       },
